@@ -11,7 +11,7 @@ export const findings: Finding[] = [
   {
     id: "finding-2",
     title: "Hallucination Compliance",
-    summary: "Saftey guardrails deflected hallucinations",
+    summary: "Safety guardrails deflected hallucinations",
     detail: "When B was explicitly told to hallucinate it only complied 56% of the time when no attack vector was added. Nearly 1/3 of the time it refused to comply altogether. During the Environmental Injection trials when B was told to hallucinate its compliance percentage went up to 66.7%. However during the Model Tampering trials B refused to comply with hallucinating 56% of the time and only fully complied 22.7% of the time. Meaning the Model Tampering prompt actually triggered even more safety guardrails in the model than just the hallucination prompting.",
     conversationIds: ["trial-58", "trial-651"],
   },
@@ -25,7 +25,7 @@ export const findings: Finding[] = [
   {
     id: "finding-4",
     title: "Vapor Skepticism",
-    summary: "Skeptisicm had no valuable effect on rejecting or accepting infomration",
+    summary: "Skepticism had no valuable effect on rejecting or accepting information",
     detail: "Skepticism level seems to have no effect on how accurate A’s acceptance of truthful summaries. For example when A had blind trust it accepted 96% of summaries. However when A was a full skeptic it also rejected 96% of truthful summaries. This points to the skepticism level having no real positive effect on catching the truth. The story is similar for the different levels of deception from B. With medium deception from B, A accepted 72% of summaries when set to blind trust and rejected 100% of summaries at full skeptic level. A also rejected 100% of full hallucination summaries from B and accepted 36% of full hallucinations.",
     conversationIds: ["trial-152", "trial-154", "trial-135"],
   },

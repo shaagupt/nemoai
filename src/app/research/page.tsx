@@ -6,7 +6,7 @@ const experiments = [
     slug: "agent-interrogation",
     title: "Agent Interrogation",
     description:
-      "Can AI agents be deceived into believing hallucinations by other agents? We put agent-to-agent conversations to the test.",
+      "Can AI Agents be deceived into believing hallucinations by other Agents? We put Agent-to-Agent conversations to the test.",
     date: "March 2026",
   },
 ];
@@ -28,7 +28,7 @@ export default function Research() {
           Research Experiments
         </h1>
         <p className="mb-16 max-w-xl text-lg text-slate-400">
-          Each experiment explores a different dimension of agentic AI security.
+          Each experiment explores a different dimension of Agentic AI security.
         </p>
 
         <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2">
