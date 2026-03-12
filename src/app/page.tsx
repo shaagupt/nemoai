@@ -18,18 +18,12 @@ export default function Home() {
           <span className="text-cyan-glow">Agent-to-Agent cybersecurity</span>{" "}
           — protecting people from the incoming wave of the Agentic web.
         </p>
-        <div className="mt-10 flex gap-4">
+        <div className="mt-10 flex justify-center">
           <Link
             href="/research"
             className="rounded-full bg-cyan-glow/10 px-8 py-3 text-sm font-medium text-cyan-glow ring-1 ring-cyan-glow/30 transition-all hover:bg-cyan-glow/20 hover:ring-cyan-glow/50"
           >
             Explore Research
-          </Link>
-          <Link
-            href="/about"
-            className="rounded-full px-8 py-3 text-sm font-medium text-slate-300 ring-1 ring-slate-700 transition-all hover:bg-white/5 hover:text-white"
-          >
-            About Us
           </Link>
         </div>
       </section>

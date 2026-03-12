@@ -16,12 +16,6 @@ export default function Navbar() {
         >
           Research
         </Link>
-        <Link
-          href="/about"
-          className="text-sm text-slate-400 transition-colors hover:text-white"
-        >
-          About
-        </Link>
       </div>
     </nav>
   );
