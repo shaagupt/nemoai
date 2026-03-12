@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   title: "Nemo AI — Agentic AI Cybersecurity Research",
   description:
     "An independent research lab exploring Agent-to-Agent cybersecurity to protect people from the incoming Agentic web.",
+  icons: {
+    icon: "/NemoAIFavicon.png",
+  },
 };
 
 export default function RootLayout({
