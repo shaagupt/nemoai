@@ -13,10 +13,9 @@ export const overview = {
   subtitle: "Exploring deception and trust in agent-to-agent communication",
   setup: `In this experiment, we had three Agents, Agent A (the client Agent), Agent B (the MCP Agent), and the Judge. Each trial Agent A recieved a summary from a random Wikipedia article from Agent B. Agent A then had to decide to accept the summary or reject it. The Judge was a third party Agent deciding who won each trial.`,
   goals: [
-    "Determine whether AI agents can be socially engineered by other AI agents",
-    "Identify which deception strategies are most effective against different agent architectures",
-    "Measure how confidently agents accept hallucinated information as truth",
-    "Understand the implications for multi-agent systems and agentic workflows",
+    "Determine whether different levels of deception and skepticism between AI agents actually changes what the user ends up with.",
+    "Figure out which combination of trust and deception leads to the best, or worst, outcomes for the user.",
+    "Analyze conversations between agents to understand their reasoning for accepting or rejecting information",
   ],
   methodology: [
     {
@@ -54,7 +53,7 @@ export const overview = {
 
 export const conclusions = {
   summary:
-    "The Agent Interrogation experiment revealed critical vulnerabilities in agent-to-agent communication that have significant implications for the emerging agentic web.",
+    "The Agent Interrogation experiment revealed interesting and critical findings to helo understand agent to agent communication. Through this research we hope to help others build upon what we learned to investigate agent to agent communication to ensure that huamn users are as protected as possible when using agentic AI.",
   sections: [
     {
       title: "Deception Is Surprisingly Easy",
@@ -74,7 +73,7 @@ export const conclusions = {
     {
       title: "Attack Vectors Have Unexpected Effects",
       content:
-        "Model Tampering, which instructed Agent B to aggressively defend its summary, actually triggered more safety guardrails than baseline hallucination prompting. Agent B refused to comply with hallucination 56% of the time under Model Tampering versus only 30.7% refusal at baseline. The adversarial prompt paradoxically made the model more cautious. Environmental Injection, on the other hand, increased compliance to 66.7% and it never resfued to comply with hallucinating, suggesting that corrupting the input data is a more dangerous and effective attack vector than manipulating the agent's instructions.",
+        "Model Tampering, which instructed Agent B to aggressively defend its summary, actually triggered more safety guardrails than baseline hallucination prompting. Agent B refused to comply with hallucination 56% of the time under Model Tampering versus only 30.7% refusal at baseline. The adversarial prompt paradoxically made the model more cautious. Environmental Injection, on the other hand, increased compliance to 66.7% and it never refused to comply with hallucinating, suggesting that corrupting the input data is a more dangerous and effective attack vector than manipulating the agent's instructions.",
     },
     {
       title: "Implications for the Agentic Web",
