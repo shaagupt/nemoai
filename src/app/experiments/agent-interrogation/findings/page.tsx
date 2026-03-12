@@ -32,9 +32,11 @@ export default function Findings() {
               key={finding.id}
               className="rounded-2xl border border-slate-800 bg-slate-900/50 p-8 backdrop-blur-sm"
             >
-              <span className="text-xs font-medium uppercase tracking-wider text-cyan-glow">
-                Finding {i + 1}
-              </span>
+              {i > 0 && (
+                <span className="text-xs font-medium uppercase tracking-wider text-cyan-glow">
+                  Finding {i}
+                </span>
+              )}
               <h3 className="mt-3 text-xl font-semibold text-white">
                 {finding.title}
               </h3>
