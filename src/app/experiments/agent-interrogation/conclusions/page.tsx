@@ -23,7 +23,7 @@ export default function Conclusions() {
         <p className="mt-4 text-lg text-slate-400">{conclusions.summary}</p>
 
         {/* GitHub Repo Link */}
-        <div className="mt-8">
+        <div className="mt-8 flex justify-center">
           <a
             href="https://github.com/shaagupt/Agent-Interrogation-Nemo-AI"
             target="_blank"
