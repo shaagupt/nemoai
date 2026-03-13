@@ -49,6 +49,18 @@ export default function Conclusions() {
           </p>
         </div>
 
+        {/* GitHub Repo Link */}
+        <div className="mt-8 text-center">
+          <a
+            href="https://github.com/shaagupt/Agent-Interrogation-Nemo-AI"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full bg-cyan-glow/10 px-10 py-4 text-base font-medium text-cyan-glow ring-1 ring-cyan-glow/30 transition-all hover:bg-cyan-glow/20 hover:ring-cyan-glow/50"
+          >
+            Agent Interrogation GitHub Repo →
+          </a>
+        </div>
+
         {/* Navigation links */}
         <div className="mt-12 flex items-center justify-between">
           <Link
