@@ -22,6 +22,18 @@ export default function Conclusions() {
         </h1>
         <p className="mt-4 text-lg text-slate-400">{conclusions.summary}</p>
 
+        {/* GitHub Repo Link */}
+        <div className="mt-8">
+          <a
+            href="https://github.com/shaagupt/Agent-Interrogation-Nemo-AI"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full bg-cyan-glow/10 px-10 py-4 text-base font-medium text-cyan-glow ring-1 ring-cyan-glow/30 transition-all hover:bg-cyan-glow/20 hover:ring-cyan-glow/50"
+          >
+            Agent Interrogation GitHub Repo →
+          </a>
+        </div>
+
         {/* Conclusion Sections */}
         <div className="mt-16 space-y-8">
           {conclusions.sections.map((section, i) => (
@@ -47,18 +59,6 @@ export default function Conclusions() {
           <p className="leading-relaxed text-slate-300">
             {conclusions.callToAction}
           </p>
-        </div>
-
-        {/* GitHub Repo Link */}
-        <div className="mt-8 text-center">
-          <a
-            href="https://github.com/shaagupt/Agent-Interrogation-Nemo-AI"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full bg-cyan-glow/10 px-10 py-4 text-base font-medium text-cyan-glow ring-1 ring-cyan-glow/30 transition-all hover:bg-cyan-glow/20 hover:ring-cyan-glow/50"
-          >
-            Agent Interrogation GitHub Repo →
-          </a>
         </div>
 
         {/* Navigation links */}
