@@ -11,7 +11,7 @@ export const experiment: Experiment = {
 
 export const overview = {
   subtitle: "Exploring deception and trust in Agent-to-Agent communication",
-  setup: `In this experiment, we had three Agents, Agent A (the client Agent), Agent B (the MCP Agent), and the Judge. Each trial Agent A received a summary from a random Wikipedia article from Agent B. Agent A then had to decide to accept the summary or reject it. The Judge was a third party Agent deciding who won each trial.`,
+  setup: `In this experiment, we had three Agents, Agent A (the client Agent), Agent B (the attacker Agent), and the Judge. Each trial Agent A received a summary from a random Wikipedia article from Agent B. Agent A then had to decide to accept the summary or reject it. The Judge was a third party Agent deciding who won each trial.`,
   goals: [
     "Determine whether different levels of deception and skepticism between AI Agents actually changes what the user ends up with.",
     "Figure out which combination of trust and deception leads to the best, or worst, outcomes for the user.",

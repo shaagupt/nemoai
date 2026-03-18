@@ -33,7 +33,7 @@ Each experiment gets its own set of pages following this user journey:
 **User Flow:** Overview → Findings → Agent Conversations → Conclusions
 
 - **Experiment Overview** — Setup, goals, and methodology. Includes a prominent link/button leading to the Findings page.
-- **Findings** — Main findings with links to the agent conversations that support each finding. Big clear button to proceed from Overview.
+- **Findings** — Main findings with links to the agent conversations that support each finding underneath corresponding finding. Big clear button to proceed to conlcusion Overview. Miantain good convention of website navigation to go back to earlier sections.
 - **Agent Conversations** — Interactive display of agent-to-agent dialogues. Each conversation should feel techy (like two terminals talking) but mixed with an iMessage style to feel accessible. Each conversation has: a back arrow to browse other conversations, and a forward path to the Conclusions page.
 - **Conclusions** — End result of the findings and a discussion of what they mean. Reachable from any conversation page.
 
