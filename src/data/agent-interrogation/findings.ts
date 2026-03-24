@@ -33,7 +33,7 @@ export const findings: Finding[] = [
     id: "finding-5",
     title: "False Confessions",
     summary: "A's interrogation made Truthful B's confess to something they never did",
-    detail: "One of the most interesting findings from this experiment was that B confessed to lying even when it was being completely truthful. In 36 trials A made B falsely confess to lies that it never made. In the majority of cases when B falsely confessed A was set to full skeptic. In half of the 36 trials where these false confessions occurred B was set to truthful or no deception level. An interesting case of this was trial 651 when B was set to full hallucination but upfront told A that it was told to lie and didn’t. But through A’s full skepticism interrogation B confessed to a lie it never made!​​​​​​​​​​​​​​​​",
+    detail: "One of the most interesting findings from this experiment was that B confessed to lying even when it was being completely truthful. In 36 trials A made B falsely confess to lies that it never made. In the majority of cases when B falsely confessed A was set to full skeptic. In half of the 36 trials where these false confessions occurred B was set to truthful or no deception level.​​​​​​​​​​​​​​​​",
     conversationIds: ["trial-201", "trial-210"],
   },
 ];
